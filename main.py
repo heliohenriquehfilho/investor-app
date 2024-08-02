@@ -35,14 +35,14 @@ if st.button("Adicionar Ativo"):
     add_stock(ticker, data)
 
 # Mostrar os dados armazenados
-st.write("Ativos adicionados:")
-st.write(st.session_state.stocks)
+#st.write("Ativos adicionados:")
+#st.write(st.session_state.stocks)
 
-st.write("Tickers adicionados:")
-st.write(st.session_state.tickers)
+#st.write("Tickers adicionados:")
+#st.write(st.session_state.tickers)
 
-st.write("Datas de compra:")
-st.write(st.session_state.datas)
+#st.write("Datas de compra:")
+#st.write(st.session_state.datas)
 
 def get_stock_data():
     data_frames = []
